@@ -23,9 +23,8 @@ func main() {
 		fmt.Println("Esto es Darwin")
 	default:
 		fmt.Printf("%s \n", os)
-
 	}*/
-	numero, mensaje := ejercicios.ConvirtiendoaNumero("50")
+	numero, mensaje := ejercicios.ConvirtiendoaNumero("rfrf")
 	fmt.Println(numero)
 	fmt.Println(mensaje)
 }
