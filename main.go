@@ -1,7 +1,13 @@
 package main
 
-import "github.com/freneklopez/gocurso/variables"
+import (
+	"fmt"
+
+	"github.com/freneklopez/gocurso/variables"
+)
 
 func main() {
-	variables.MuestroEnteros()
+	estado, texto := variables.ConviertoaTexto(1577)
+	fmt.Println(estado)
+	fmt.Println(texto)
 }
