@@ -1,10 +1,8 @@
 package main
 
 import (
-	"fmt"
-
 	"github.com/freneklopez/gocurso/ejercicios"
-	/*"runtime"*/)
+)
 
 func main() {
 	/*estado, texto := variables.ConviertoaTexto(1577)
@@ -24,7 +22,11 @@ func main() {
 	default:
 		fmt.Printf("%s \n", os)
 	}*/
-	numero, mensaje := ejercicios.ConvirtiendoaNumero("rfrf")
+	/*numero, mensaje := ejercicios.ConvirtiendoaNumero("rfrf")
 	fmt.Println(numero)
-	fmt.Println(mensaje)
+	fmt.Println(mensaje)*/
+	/*teclado.IngresoNumeros()*/
+
+	ejercicios.Multiplicacion()
+
 }
