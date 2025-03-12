@@ -34,5 +34,5 @@ func IngresoNumeros() {
 		leyenda = scanner.Text()
 
 	}
-
+	fmt.Println(leyenda, numero1*numero2)
 }

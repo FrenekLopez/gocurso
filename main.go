@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/freneklopez/gocurso/ejercicios"
+	"github.com/freneklopez/gocurso/teclado"
 )
 
 func main() {
@@ -25,8 +25,6 @@ func main() {
 	/*numero, mensaje := ejercicios.ConvirtiendoaNumero("rfrf")
 	fmt.Println(numero)
 	fmt.Println(mensaje)*/
-	/*teclado.IngresoNumeros()*/
-
-	ejercicios.Multiplicacion()
+	teclado.IngresoNumeros()
 
 }
