@@ -1,8 +1,6 @@
 package main
 
-import (
-	"github.com/freneklopez/gocurso/teclado"
-)
+import "github.com/freneklopez/gocurso/files"
 
 func main() {
 	/*estado, texto := variables.ConviertoaTexto(1577)
@@ -25,6 +23,10 @@ func main() {
 	/*numero, mensaje := ejercicios.ConvirtiendoaNumero("rfrf")
 	fmt.Println(numero)
 	fmt.Println(mensaje)*/
-	teclado.IngresoNumeros()
+	/*teclado.IngresoNumeros()*/
+	//fmt.Println(ejercicios.Multiplicacion())
 
+	//files.GrabaTabla()
+	//files.SumaTabla()
+	files.LeoArchivo()
 }
