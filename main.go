@@ -1,6 +1,6 @@
 package main
 
-import "github.com/freneklopez/gocurso/files"
+import "github.com/freneklopez/gocurso/funciones"
 
 func main() {
 	/*estado, texto := variables.ConviertoaTexto(1577)
@@ -28,5 +28,8 @@ func main() {
 
 	//files.GrabaTabla()
 	//files.SumaTabla()
-	files.LeoArchivo()
+	//files.LeoArchivo()
+	//funciones.Calculo()
+	funciones.LlamarClosure()
+
 }
