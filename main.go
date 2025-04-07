@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/freneklopez/gocurso/mapas"
+	"github.com/freneklopez/gocurso/users"
 )
 
 func main() {
@@ -37,5 +37,6 @@ func main() {
 	//arreglos_slices.MuestroArreglos()
 	//arreglos_slices.MuestroSlices()
 	//arreglos_slices.Capacidad()
-	mapas.MuestrarMapas()
+	//mapas.MuestrarMapas()
+	users.AltaUsusario()
 }

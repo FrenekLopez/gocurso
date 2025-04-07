@@ -27,7 +27,7 @@ func MuestrarMapas() {
 	delete(campionato, "Real Madrid")
 	fmt.Println(campionato)
 
-	puntaje, existe := campionato["Chivas"]
+	puntaje, existe := campionato["Barcelona"]
 	fmt.Printf("El porcentaje capturado es %d, y el equipo existe = %t, \n", puntaje, existe)
 
 }
