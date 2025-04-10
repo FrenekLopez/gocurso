@@ -1,6 +1,10 @@
 package main
 
-import "github.com/freneklopez/gocurso/defer_panic"
+import (
+	"fmt"
+
+	"github.com/freneklopez/gocurso/goroutines"
+)
 
 func main() {
 	/*estado, texto := variables.ConviertoaTexto(1577)
@@ -45,5 +49,11 @@ func main() {
 	//e.HumanoRespirando(Maria)
 
 	//defer_panic.VemosDefer()
-	defer_panic.EjemploPanic()
+	//defer_panic.EjemploPanic()
+
+	go goroutines.MiNombreLento("Eric Frenek")
+
+	fmt.Println("Este estoy aqui")
+	var x string
+	fmt.Scanln(&x)
 }
