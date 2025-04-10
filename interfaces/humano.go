@@ -2,7 +2,8 @@ package interfaces
 
 type Humano interface {
 	Respirar()
-	Calculoomer()
 	Pensar()
+	Comer()
 	Sexo() string
+	Calculoomer()
 }

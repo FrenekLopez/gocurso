@@ -1,9 +1,6 @@
 package main
 
-import (
-	e "github.com/freneklopez/gocurso/ejer_interfaces"
-	"github.com/freneklopez/gocurso/modelos"
-)
+import "github.com/freneklopez/gocurso/defer_panic"
 
 func main() {
 	/*estado, texto := variables.ConviertoaTexto(1577)
@@ -41,10 +38,12 @@ func main() {
 	//mapas.MuestrarMapas()
 	//users.AltaUsusario()
 
-	Pedro := new(modelos.Hombre)
-	e.HumanoRespirando(Pedro)
+	//Pedro := new(modelos.Hombre)
+	//e.HumanoRespirando(Pedro)
 
-	Maria := new(modelos.Mujer)
-	e.HumanoRespirando(Maria)
+	//Maria := new(modelos.Mujer)
+	//e.HumanoRespirando(Maria)
 
+	//defer_panic.VemosDefer()
+	defer_panic.EjemploPanic()
 }
