@@ -1,7 +1,8 @@
 package main
 
 import (
-	"github.com/freneklopez/gocurso/users"
+	e "github.com/freneklopez/gocurso/ejer_interfaces"
+	"github.com/freneklopez/gocurso/modelos"
 )
 
 func main() {
@@ -38,5 +39,12 @@ func main() {
 	//arreglos_slices.MuestroSlices()
 	//arreglos_slices.Capacidad()
 	//mapas.MuestrarMapas()
-	users.AltaUsusario()
+	//users.AltaUsusario()
+
+	Pedro := new(modelos.Hombre)
+	e.HumanoRespirando(Pedro)
+
+	Maria := new(modelos.Mujer)
+	e.HumanoRespirando(Maria)
+
 }
