@@ -2,11 +2,25 @@ package main
 
 import (
 	"fmt"
+	"time"
 
 	"github.com/freneklopez/gocurso/goroutines"
+	//"github.com/freneklopez/gocurso/files"
+	//"github.com/freneklopez/gocurso/goroutines"
 )
 
+func hello() {
+	//time.Sleep(1 * time.Second)
+	fmt.Println("Esto es una goroutine")
+
+}
 func main() {
+	go hello()
+
+	fmt.Println("Funcion principal")
+
+	time.Sleep(3 * time.Second)
+	fmt.Println("Fin del programa")
 	/*estado, texto := variables.ConviertoaTexto(1577)
 	  fmt.Println(estado)
 	  fmt.Println(texto)*/
@@ -30,7 +44,7 @@ func main() {
 	/*teclado.IngresoNumeros()*/
 	//fmt.Println(ejercicios.Multiplicacion())
 
-	// files.GrabaTabla()
+	//files.GrabaTabla()
 	// files.SumaTabla()
 	// files.LeoArchivo()
 	// funciones.Calculo()
@@ -45,8 +59,8 @@ func main() {
 	//Pedro := new(modelos.Hombre)
 	//e.HumanoRespirando(Pedro)
 
-	//Maria := new(modelos.Mujer)
-	//e.HumanoRespirando(Maria)
+	//Elena := new(modelos.Mujer)
+	//e.HumanoRespirando(Elena)
 
 	//defer_panic.VemosDefer()
 	//defer_panic.EjemploPanic()
@@ -56,4 +70,5 @@ func main() {
 	fmt.Println("Este estoy aqui")
 	var x string
 	fmt.Scanln(&x)
+
 }
